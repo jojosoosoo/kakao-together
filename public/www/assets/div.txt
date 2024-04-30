@@ -1,0 +1,17 @@
+header
+
+main
+<메인 왼쪽>
+top-donation 1-1
+top-banner 2+a
+bottom-donation 1-2
+
+slide-banner 3
+
+<메인 오른쪽>
+card-slide 4
+small-banner 5
+whether-test 6
+news 7
+
+footer
