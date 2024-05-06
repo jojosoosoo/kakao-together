@@ -1,0 +1,31 @@
+.main-bottom {
+  background: firebrick;
+  width: 700px;
+  height: 250px;
+  display: flex;
+  margin-top: 30px;
+}
+
+.main-bottom-contents {
+  display: flex;
+}
+
+.main-bottom-banner {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  background-size: 100%;
+}
+
+.main-bottom-tag {
+  font-size: 13px;
+  color: #999999;
+}
+.main-bottom-title {
+  font-size: 20px;
+  color: #202020;
+}
+.main-bottom-content {
+  font-size: 14px;
+  color: #888888;
+}

@@ -1,0 +1,27 @@
+.footer {
+}
+.footer .inner {
+}
+
+.footer-top-info {
+}
+.footer-logo {
+  background: pink;
+  width: 115px;
+  height: 18;
+  display: block;
+}
+.footer-logo .img {
+  width: 115px;
+  height: auto;
+}
+.footer-top-info-desc {
+  background: hotpink;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+}
+.footer-sns {
+}
