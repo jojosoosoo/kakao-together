@@ -1,0 +1,183 @@
+.main-top{
+    width: 700px;
+}
+.main-top-dona{
+    width: 100%;
+    height: 370px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    line-height: 18px;
+    margin-bottom: 30px;
+}
+
+.dona-title{
+}
+.dona-title h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    letter-spacing: -2px;
+}
+.dona-sub{
+    font-size: 15px;
+    color:rgb(102, 102, 102);
+    letter-spacing: -1px;
+}
+
+.dona-dec{
+    display: flex;
+    gap: 20px;
+}
+.dona-contain{
+    width: 200px;
+    height: 137px;
+    font-size: 15px;
+}
+.dona-contain-img{
+    width: 100%;
+    height: 100%;
+    /* margin-top: 15px; */
+    margin: 15px auto;
+    background: url(../images/dona6.jpg) no-repeat center;
+    background-size: cover;
+    border-radius: 8px;
+}
+.dona-contain-text{
+    font-size: 14px;
+}
+.dona-contain-subtext{
+    font-size: 12px;
+    /* line-height: 18px; */
+    color: #888;
+}
+.dona-bar{
+    width: 100%;
+    height: 2px;
+    background: #ff4050;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.dona-percent{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 12px;
+}
+.dona-percent span {
+    color: #ff4050;
+}
+
+.main-top-dona-time{
+    width: 100%;
+    height: 305px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    line-height: 18px;
+    margin-bottom: 30px;
+}
+.time-contain{
+    display: flex;
+    width: 640px;
+    height: 175px;
+    font-size: 15px;
+    margin: 18px auto;
+}
+.time-contain-img{
+    width: 280px;
+    height: 175px;
+    background: url(../images/dona7.jpg) no-repeat center;
+    background-size: cover;
+    border-radius: 8px;
+}
+.time-contain-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.time-contain-text h2{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.time-bar{
+    width: 100%;
+    height: 5px;
+    background: #ff4050;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.time-percent{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    flex-direction: column;
+    align-items: center;
+}
+.time-percent-top{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 700;
+}
+.time-percent-top span{}
+.time-percent-top p{}
+
+.time-percent-bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.time-percent-bottom span{
+    color: #ff4050;
+}
+.time-percent-bottom p{}
+
+.dona-button{
+    display: flex;
+    justify-content: space-between;
+    width: 355px;
+    height: 40px;
+    margin: 20px auto;
+}
+.bt-heart, .bt-dona{
+    display: flex;
+    justify-content: space-around;
+    width: 164px;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    border: #C9C9C9 solid 2px;
+    border-radius: 8px;
+}
+
+.main-top-dona-tag{
+    width: 100%;
+    height: 398px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    line-height: 18px;
+    margin-bottom: 30px;
+}
+.dona-tag{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+.tag-bt{
+    display: block;
+    border: #eee solid 1px;
+    border-radius: 25px;
+    padding: 12px;
+}
+.tag-bt span{
+    font-size: 14px;
+}
+/* .tag-bt:visited{
+    background: #202020;
+}
+.tag-bt span:visited{
+    color: white;
+} */
