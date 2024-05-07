@@ -1,31 +1,97 @@
 .main-bottom {
-  background: firebrick;
   width: 700px;
-  height: 250px;
-  display: flex;
+  border-radius: 10px;
   margin-top: 30px;
+  margin-bottom: 46px;
 }
-
-.main-bottom-contents {
-  display: flex;
+.main-bottom-inner {
 }
 
 .main-bottom-banner {
-  width: 250px;
+  width: 700px;
   height: 250px;
   display: flex;
-  background-size: 100%;
+  background: #ffffff;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 45px;
+  filter: drop-shadow(0 10px 10px rgba(125, 125, 125, 0.2));
+}
+
+.main-bottom-img {
+  width: 250px;
+  height: 250px;
+  background: url(../images/dona1.jpg) no-repeat center;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.main-bottom-contents {
+  padding: 0px 30px;
+  background: #ffffff;
+  margin: 8px 0;
+  width: 450px;
+  height: 193.85px;
+}
+
+.main-bottom-content p {
+  width: 390px;
 }
 
 .main-bottom-tag {
+  display: block;
+  padding-top: 10px;
+  line-height: 1.5;
+  letter-spacing: -0.1px;
   font-size: 13px;
+  font-weight: 700;
   color: #999999;
 }
 .main-bottom-title {
+  width: 390px;
+
+  display: block;
+  padding-top: 3px;
+
+  letter-spacing: -0.1px;
+  line-height: 1.56;
+
   font-size: 20px;
+  font-weight: 700;
   color: #202020;
 }
 .main-bottom-content {
+  width: 390px;
+  display: block;
+  margin-top: 11px;
+
+  letter-spacing: -0.1px;
+  line-height: 1.56;
+
   font-size: 14px;
+  font-weight: 400;
   color: #888888;
+  line-height: 23px;
+}
+
+.main-bottom-time-bar {
+  width: 100%;
+  height: 5px;
+  background: #ff4050;
+  border-radius: 20px;
+  margin-top: 16px;
+}
+.main-bottom-time-percent {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 6px 0 0;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+}
+.main-bottom-time-percent span {
+}
+.main-bottom-time-percent p {
+  color: #ff4050;
 }

@@ -1,9 +1,16 @@
 .footer {
+  padding: 40px 0 45px;
+  display: block;
+  border-top: 1px solid rgb(238, 238, 238);
 }
 .footer .inner {
+  display: block;
+  width: 1120px;
+  margin: 0px auto;
 }
 
 .footer-top-info {
+  display: block;
 }
 .footer-logo {
   background: pink;
@@ -15,13 +22,48 @@
   width: 115px;
   height: auto;
 }
+
 .footer-top-info-desc {
+  display: fl;
+  font-size: 14px;
+  font-weight: 400;
+  color: #666666;
+  padding: 16px 0 18px;
   background: hotpink;
+  line-height: 1.57;
+  letter-spacing: -0.1px;
 }
 
 .footer-bottom {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
+.footer-sitemap {
+}
+.footer-sitemap li {
+  display: inline-block;
+  padding: 6px 0;
+  font-size: 14px;
+}
+
+.footer-sitemap .dot {
+  font-size: 13px;
+  color: red;
+}
+.footer-sitemap li a {
+  font-weight: 700;
+}
+
 .footer-sns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.footer-sns li {
+  width: 30px;
+  display: inline-block;
+  padding: 6px 0;
 }
