@@ -123,6 +123,8 @@
   gap: 8px;
   margin-bottom: 40px;
 }
+.mb-list li {
+}
 .mb-list li a {
   font-size: 16px;
 }
