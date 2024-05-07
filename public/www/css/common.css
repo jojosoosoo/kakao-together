@@ -14,8 +14,8 @@ html {
   overflow-x: hidden;
 }
 body {
-  font-family: "Kakao";
-  /* font-family: "Inter", "Noto Sans KR", sans-serif; */
+  /* font-family: "Kakao"; */
+  font-family: "Inter", "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-optical-sizing: auto;
@@ -23,7 +23,7 @@ body {
 .wrap {
   position: relative;
   padding-top: 70px;
-  background: #F7F7F7;
+  background: #f7f7f7;
 }
 .inner {
   width: calc(100% - 30px);
@@ -32,5 +32,4 @@ body {
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
-
 }
