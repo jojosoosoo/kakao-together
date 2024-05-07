@@ -9,7 +9,7 @@
   display: block;
   border-bottom: 1px solid rgb(238, 238, 238);
 
-  z-index: 999999;
+  z-index: 999990;
   background-color: #fff;
 }
 .header .inner {
@@ -63,4 +63,70 @@
   display: block;
   background: url("../images/icon-hbr.png") no-repeat center;
   background-size: contain;
+}
+
+/* 헤더 모바일 메뉴 */
+.mb-header-bg {
+  position: fixed;
+  z-index: 999991;
+  width: 300px;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background: #fff;
+  padding: 30px;
+}
+.mb-header-menu {
+}
+.mb-nav {
+}
+.mb-login {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.mb-login-img {
+  width: 40px;
+  height: 40px;
+  display: block;
+  background: url(../images/avatar.png) no-repeat center;
+  background-size: contain;
+  border-radius: 8px;
+}
+.mb-login-text {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.mb-login-bt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #f9f9f9;
+  border: #f1f1f1 solid 1px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+.mb-login-bt li a {
+  font-size: 13px;
+}
+.mb-login-bt li a span {
+  color: #f1f1f1;
+}
+.mb-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 40px;
+}
+.mb-list li {
+}
+.mb-list li a {
+  font-size: 16px;
+}
+.mb-info {
 }
