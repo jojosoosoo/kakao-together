@@ -1,0 +1,59 @@
+.main-card {
+  display: block;
+}
+
+/* 카드 상단 */
+.card-slide {
+  width: 390px;
+  height: 250px;
+  background: #ffe800;
+  padding: 34px 26px 29px;
+  border-radius: 12px 12px 0 0;
+}
+
+.money-img {
+  background: url(../images/img_choonsik_231226.png);
+}
+.money-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #202020;
+}
+.money-date {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.money-total {
+}
+.money-
+
+
+/* 카드 하단 후기 슬라이드 */
+.card-review {
+  width: 390px;
+  height: 281px;
+  background: #ffffff;
+  padding: 31px 26px 46px;
+  border-radius: 0 0 12px 12px;
+}
+
+.review-top {
+  font-size: 13px;
+  font-weight: 700;
+  color: #888888;
+}
+.review-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #444444;
+  padding-top: 16px;
+  max-height: 56px;
+  line-height: 1.56;
+}
+.review-content {
+  font-size: 14px;
+  color: #4a4a4a;
+  padding-top: 11px;
+  max-height: 135px;
+  line-height: 1.92;
+}

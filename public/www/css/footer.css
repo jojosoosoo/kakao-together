@@ -13,7 +13,6 @@
   display: block;
 }
 .footer-logo {
-  background: pink;
   width: 115px;
   height: 18;
   display: block;
@@ -29,7 +28,6 @@
   font-weight: 400;
   color: #666666;
   padding: 16px 0 18px;
-  background: hotpink;
   line-height: 1.57;
   letter-spacing: -0.1px;
 }
@@ -45,17 +43,22 @@
   display: inline-block;
   padding: 6px 0;
   font-size: 14px;
+  color: #444;
+  line-height: 1.57;
+  letter-spacing: -0.1px;
 }
 
 .footer-sitemap .dot {
   font-size: 13px;
-  color: red;
+  color: #444444;
 }
 .footer-sitemap li a {
   font-weight: 700;
 }
 
 .footer-sns {
+}
+.sns-list {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,6 +66,7 @@
 }
 
 .footer-sns li {
+  text-align: center;
   width: 30px;
   display: inline-block;
   padding: 6px 0;
