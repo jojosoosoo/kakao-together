@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/mainbottom.css">
+    <link rel="stylesheet" href="./css/mainbanner.css">
+    <link rel="stylesheet" href="./css/maincard.css">
     <link rel="stylesheet" href="./css/maintop.css" />
     <link rel="stylesheet" href="./css/footer.css" />
 
@@ -62,6 +64,7 @@
 
            <!-- 버튼 수정 필요 -->
             <ul class="mb-login-bt">
+              <li><a href="#">MY</a></li>
               <li>
                 <a href="#"><img src="./images/side/ico_side_my.svg" alt=""></a>
                 <a href="#">MY</a>
@@ -72,6 +75,10 @@
               </li>
             </ul>
             <ul class="mb-list">
+              <li><a href="#">같이기부</a></li>
+              <li><a href="#">모두의행동</a></li>
+              <li><a href="#">마음날씨</a></li>
+              <li><a href="#">캠페인</a></li>
               <li><a href="#"><img src="./images/side/ico_side_fundraising.svg" alt="같이기부"></a>
               <a href="#">같이기부</a></li>
               <li><a href="#"><img src="./images/side/ico_side_action.svg" alt="모두의행동"></a>
@@ -93,8 +100,8 @@
       </div>
       
 
-    <!-- 메인 레이아웃 -->
-    <main class="main">
+      <!-- 메인 레이아웃 -->
+      <main class="main">
         <div class="inner">
           <!-- 메인 상단 -->
           <div class="main-top">
@@ -258,9 +265,30 @@
                 </div>
               </div>
             </div>
-          <!-- </div> -->
+          </div>
           <!-- 메인 중간 배너 영역 -->
-          <div class="main-banner"></div>
+          <div class="main-banner">
+            <a href="#">
+              <div class="main-banner-img"></div>
+            </a>
+            <div class="main-banner-contents">
+              <div class="main-banner-tag">
+                <p># 모두의행동</p>
+              </div>
+              <div class="main-banner-title">
+                <p>춘식이와 함께<br>태극기를 달아주세요!</p>
+              </div>
+              <div class="main-banner-content">
+                <p>우리가 잊고 지내던 태극기의 소중함을 되새기며, 나라 사랑의 마음을 표현하는 태극기 달기! 함께 행동해 볼까요?</p>
+              </div>
+              <div class="main-banner-action">
+                <a href="#">
+                  <div class="action-icon"></div>
+                </a>
+                <p>175,936명 행동중</p>
+              </div>
+            </div>
+          </div>
           <!-- 메인 하단 -->
           <div class="main-bottom">
             <div class="main-bottom-inner">
@@ -287,8 +315,8 @@
                 </a>
                   <div class="main-bottom-contents">
                     <div class="main-bottom-tag">
-                      <p># 마을만들기</p></div>
-                      <div class="main-bottom-title"><p>홀로 사는 어르신들에게 이웃이 되어주세요!</p></div>
+                      <p># 건강한삶</p></div>
+                      <div class="main-bottom-title"><p>배고픔 없는 보통의 삶</p></div>
                       <div class="main-bottom-content"><p>"할머니, 죄송해요..." 주호(가명)는 엄마, 아빠의 보살핌을 받지 못한 채 5살의 어린 나이에 할머니, 할아버지께 맡겨졌습니다.  할아버지는 전립선암 3기 진단으로 치료 중이며...</p></div>
                     <div class="main-bottom-time-bar"></div>
                     <div class="main-bottom-time-percent">
@@ -365,8 +393,35 @@
           </div>
         <!-- 메인 우측 카드 영역 -->
           <div class="main-card">
-            <!-- 카드 슬라이드 -->
-            <div class="card-slide"></div>
+            <!-- 카드 상단 -->
+            <div class="card-slide">
+              <a href="#">
+                  <div class="money-img"></div>
+              </a>
+              <div class="money-content">
+                <p class="money-title">우리가<br>같이만든 변화들</p>
+                <p class="money-date">2024.05.08 기준</p>
+              </div>
+              <div class="money-total">
+                  <a href="#">
+                    <div class="money-total-icon"></div>
+                  </a>
+                  <p>총 기부금</p>
+                  <p>74,304,097,307원</p>
+              </div>
+            </div>
+            <!-- 카드 하단 후기 슬라이드 -->
+            <div class="card-review">
+              <div class="review-top">
+                <p>따뜻한 후기</p>
+              </div>
+              <div class="review-title">
+                <p>역사상 최악의 지진 그리고 희망의 손길</p>
+              </div>
+              <div class="review-content">
+                <p>2023년 2월 6일 튀르키예 가지안테프와 카하르만마라슈 지역에서 강도 7.5 이상의 강진이 두 차례 발생했습니다. 이 지진으로 시리아에서만 5,670명의 사망자가 발생했으며, 265,000명의 이재민이 발생했습니다. 역대 최고 수준의 강진으로 인하여 시리아의 아동들은 </p>
+              </div>
+            </div>
             <!-- 작은 배너 -->
             <div class="small-banner"></div>
             <!-- 마음 날씨 -->
@@ -375,10 +430,11 @@
             <div class="news"></div>
           </div>
       </div>
+     </div>
     </main>
 
-    <!-- 하단 레이아웃 -->
-    <footer class="footer">
+      <!-- 하단 레이아웃 -->
+      <footer class="footer">
         <div class="inner">
           <!-- 회사 소개 -->
           <div class="footer-top-info">
@@ -415,7 +471,8 @@
           </div>
         </div>
        </div>
-    </footer>
+      </footer>
     </div>
   </body>
 </html>
+
