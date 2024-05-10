@@ -13,16 +13,17 @@
   background: #ffe800;
   padding: 34px 26px 29px;
   border-radius: 12px 12px 0 0;
+  position: relative;
 }
 
 .money-img {
   width: 105px;
   height: 133px;
   background: url(../images/img_choonsik_231226.png) no-repeat center;
-  background-size: cover;
-
-  background-position: right center;
+  background-size: 100%;
   position: absolute;
+  right: 20px;
+  top: 19px;
 }
 
 .money-title {
@@ -112,9 +113,13 @@
   filter: drop-shadow(0 10px 10px rgba(125, 125, 125, 0.2));
 }
 .small-banner-img {
+  width: 105px;
+  height: 133px;
   background: url(../images/dd717ba0105d480bb5c374e411c56abd.png) no-repeat center;
   background-size: cover;
   position: absolute;
+  right: 20px;
+  top: 60px;
 }
 .small-banner-content {
   height: 156px;
@@ -132,4 +137,43 @@
   line-height: 1.15;
   opacity: 0.8;
   color: #ffffff;
+}
+
+.weather {
+  width: 360px;
+  margin-bottom: 30px;
+  padding: 30px 26px;
+  border-radius: 12px;
+  background: #ffffff;
+}
+.weather-title {
+  color: #202020;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.weather-list ul {
+  height: 60px;
+}
+.weather-list {
+  display: flex;
+  align-items: center;
+}
+.weather-list img {
+  width: 60px;
+  height: 60px;
+  border-radius: 6px;
+}
+.weather-content {
+  padding: 0 16px;
+}
+.weather-list a {
+  display: block;
+  color: #444444;
+  font-weight: 700;
+}
+.weather-list span {
+  display: block;
+  color: #888888;
+  font-weight: 400;
 }

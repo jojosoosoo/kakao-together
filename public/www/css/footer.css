@@ -23,7 +23,7 @@
 }
 
 .footer-top-info-desc {
-  display: fl;
+  display: flex;
   font-size: 14px;
   font-weight: 400;
   color: #666666;
@@ -36,6 +36,28 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.footer-bottom-content {
+  display: inline-flex;
+}
+.footer-copy {
+  width: 113px;
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  padding: 6px 0;
+}
+.footer-copy .corp {
+  display: flex;
+  font-size: 14px;
+  color: #444;
+  line-height: 1.57;
+  letter-spacing: -0.1px;
+}
+.footer-copy .dot1 {
+  font-size: 13px;
+  color: #444444;
+  padding: 6px 0;
 }
 .footer-sitemap {
 }
@@ -70,4 +92,30 @@
   width: 30px;
   display: inline-block;
   padding: 6px 0;
+}
+
+/* 푸터 반응형 */
+@media all and (max-width: 770px) {
+  .footer .inner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-top-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-logo {
+  }
+  .footer-sitemap {
+  }
+  .footer-sns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sns-list {
+  }
 }
