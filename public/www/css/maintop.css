@@ -1,6 +1,7 @@
 .main-top {
   width: 700px;
 }
+
 .main-top-dona {
   width: 100%;
   height: 370px;
@@ -9,6 +10,14 @@
   border-radius: 10px;
   line-height: 18px;
   margin-bottom: 30px;
+  filter: drop-shadow(0 10px 10px rgba(125, 125, 125, 0.2));
+}
+
+/* 반응형 */
+@media all and (max-width: 770px) {
+  .main-top-dona {
+    width: 770px;
+  }
 }
 
 .dona-title {
@@ -76,6 +85,7 @@
   border-radius: 10px;
   line-height: 18px;
   margin-bottom: 30px;
+  filter: drop-shadow(0 10px 10px rgba(125, 125, 125, 0.2));
 }
 .time-contain {
   display: flex;
@@ -164,6 +174,7 @@
   border-radius: 10px;
   line-height: 18px;
   margin-bottom: 30px;
+  filter: drop-shadow(0 10px 10px rgba(125, 125, 125, 0.2));
 }
 .dona-tag {
   display: flex;

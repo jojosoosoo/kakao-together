@@ -15,6 +15,16 @@
 .header .inner {
   height: 70px;
 }
+
+/* 반응형 */
+/* @media all and (max-width: 1120px) {
+  .header .inner {
+    justify-content: center;
+    align-items: center;
+    width: 1120px;
+  }
+} */
+
 .header-logo {
 }
 .header-logo-link {
@@ -27,13 +37,24 @@
 .menu-list {
   display: flex;
   gap: 50px;
+  align-items: center;
 }
 .menu-list li {
+  white-space: nowrap;
 }
 .menu-list li a {
   font-weight: 700;
   color: #444444;
   text-decoration: none;
+}
+
+/* 반응형 */
+@media all and (max-width: 1120px) {
+  .header-menu {
+    display: flex;
+    justify-content: center;
+    width: 1120px;
+  }
 }
 
 .header-navi {
@@ -65,8 +86,16 @@
   background-size: contain;
 }
 
+/* 반응형 */
+@media all and (max-width: 1120px) {
+  .header-navi {
+    display: none;
+  }
+}
+
 /* 헤더 모바일 메뉴 */
 .mb-header-bg {
+  display: none;
   position: fixed;
   z-index: 999991;
   width: 300px;
@@ -140,9 +169,9 @@
 .mb-info {
   display: flex;
   flex-direction: row;
-  /* justify-content: flex-start; */
-  justify-content: space-around;
-  /* gap: 50px; */
+  justify-content: flex-start;
+  /* justify-content: space-around; */
+  gap: 50px;
 }
 .mb-info-top,
 .mb-info-bottom {
