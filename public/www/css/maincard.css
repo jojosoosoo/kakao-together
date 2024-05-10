@@ -112,7 +112,8 @@
   filter: drop-shadow(0 10px 10px rgba(125, 125, 125, 0.2));
 }
 .small-banner-img {
-  background: url(../images/dd717ba0105d480bb5c374e411c56abd.png) no-repeat center;
+  background: url(../images/dd717ba0105d480bb5c374e411c56abd.png) no-repeat
+    center;
   background-size: cover;
   position: absolute;
 }
