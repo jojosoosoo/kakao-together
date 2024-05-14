@@ -35,8 +35,9 @@ html {
   overflow-x: hidden;
 }
 body {
-  /* font-family: "Kakao"; */
-  font-family: "Inter", "Noto Sans KR", sans-serif;
+  font-family: "KakaoBig regular";
+  font-family: "KakaoBig Bold";
+  /* font-family: "Inter", "Noto Sans KR", sans-serif; */
   font-style: normal;
   font-weight: 400;
   font-optical-sizing: auto;
