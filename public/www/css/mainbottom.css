@@ -44,7 +44,6 @@
   line-height: 1.5;
   letter-spacing: -0.1px;
   font-size: 13px;
-  font-weight: 700;
   color: #999999;
 }
 .main-bottom-title {
@@ -57,7 +56,6 @@
   line-height: 1.56;
 
   font-size: 20px;
-  font-weight: 700;
   color: #202020;
 }
 .main-bottom-content {
@@ -69,7 +67,7 @@
   line-height: 1.56;
 
   font-size: 14px;
-  font-weight: 400;
+  font-family: "KakaoBig regular";
   color: #888888;
   line-height: 23px;
 }
@@ -87,11 +85,11 @@
   width: 100%;
   padding: 6px 0 0;
   font-size: 14px;
-  font-weight: 700;
   line-height: 18px;
 }
 .main-bottom-time-percent span {
 }
 .main-bottom-time-percent p {
   color: #ff4050;
+  font-size: 14px;
 }

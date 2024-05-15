@@ -29,12 +29,12 @@
 .money-title {
   line-height: 1.5;
   font-size: 20px;
-  font-weight: 700;
   color: #202020;
 }
 .money-date {
   padding: 12px 0 0 0;
   font-size: 13px;
+  font-family: "KakaoBig regular";
   color: rgba(0, 0, 0, 0.5);
 }
 
@@ -61,12 +61,10 @@
 
 .money-total h4 {
   font-size: 16px;
-  font-weight: 700;
   color: #444444;
 }
 .money-total p {
   font-size: 18px;
-  font-weight: 700;
   color: #202020;
 }
 
@@ -82,12 +80,10 @@
 
 .review-top {
   font-size: 13px;
-  font-weight: 700;
   color: #888888;
 }
 .review-title {
   font-size: 18px;
-  font-weight: 700;
   color: #444444;
   padding-top: 16px;
   max-height: 56px;
@@ -95,6 +91,7 @@
 }
 .review-content {
   font-size: 14px;
+  font-family: "KakaoBig regular";
   color: #4a4a4a;
   padding-top: 11px;
   max-height: 135px;
@@ -126,14 +123,13 @@
 }
 .small-banner-content h2 {
   font-size: 20px;
-  font-weight: 600;
   line-height: 1.5;
   color: #ffffff;
 }
 .small-banner-content p {
   padding-top: 10px;
   font-size: 14px;
-  font-weight: 400;
+  font-family: "KakaoBig regular";
   line-height: 1.15;
   opacity: 0.8;
   color: #ffffff;
@@ -150,7 +146,6 @@
 .weather-title {
   color: #202020;
   font-size: 20px;
-  font-weight: 700;
   line-height: 1.61;
   margin-bottom: 19px;
 }
@@ -187,14 +182,13 @@
   display: block;
   font-size: 15px;
   color: #444444;
-  font-weight: 700;
   line-height: 1.73;
 }
 .weather-list span {
   display: block;
   font-size: 13px;
   color: #888888;
-  font-weight: 400;
+  font-family: "KakaoBig regular";
 }
 
 /* 우측 뉴스 */
@@ -209,7 +203,6 @@
 .news-title {
   color: #202020;
   font-size: 20px;
-  font-weight: 700;
   line-height: 1.61;
   margin-bottom: 19px;
 }

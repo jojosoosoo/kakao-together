@@ -24,14 +24,13 @@
 }
 .dona-title h2 {
   font-size: 20px;
-  font-weight: 700;
   margin-bottom: 14px;
-  letter-spacing: -2px;
+  color: #202020;
 }
 .dona-sub {
   font-size: 15px;
   color: rgb(102, 102, 102);
-  letter-spacing: -1px;
+  font-family: "KakaoBig regular";
 }
 
 .dona-dec {
@@ -42,6 +41,7 @@
   width: 200px;
   height: 137px;
   font-size: 15px;
+  font-family: "KakaoBig regular";
 }
 .dona-contain-img {
   width: 100%;
@@ -57,7 +57,6 @@
 }
 .dona-contain-subtext {
   font-size: 12px;
-  /* line-height: 18px; */
   color: #888;
 }
 .dona-bar {
@@ -70,8 +69,8 @@
 .dona-percent {
   display: flex;
   justify-content: space-between;
-  font-weight: 700;
   font-size: 12px;
+  font-family: "KakaoBig Bold";
 }
 .dona-percent span {
   color: #ff4050;
@@ -83,7 +82,6 @@
   background: #fff;
   padding: 30px;
   border-radius: 10px;
-  line-height: 18px;
   margin-bottom: 30px;
   filter: drop-shadow(0 10px 10px rgba(125, 125, 125, 0.2));
 }
@@ -129,7 +127,8 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  font-weight: 700;
+  font-size: 14px;
+  line-height: 2.1;
 }
 .time-percent-top span {
 }
@@ -140,6 +139,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+  font-family: "KakaoBig regular";
 }
 .time-percent-bottom span {
   color: #ff4050;
@@ -150,9 +150,8 @@
 .dona-button {
   display: flex;
   justify-content: space-between;
-  width: 355px;
   height: 40px;
-  margin: 20px auto;
+  margin-top: 30px;
 }
 .bt-heart,
 .bt-dona {
@@ -162,7 +161,7 @@
   height: 100%;
   align-items: center;
   flex-direction: column;
-  border: #c9c9c9 solid 2px;
+  border: #c9c9c9 solid 1px;
   border-radius: 8px;
 }
 
@@ -189,6 +188,7 @@
 }
 .tag-bt span {
   font-size: 14px;
+  font-family: "KakaoBig regular";
 }
 /* .tag-bt:visited{
     background: #202020;
