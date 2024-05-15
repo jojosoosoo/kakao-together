@@ -25,7 +25,7 @@
 .footer-top-info-desc {
   display: flex;
   font-size: 14px;
-  font-weight: 400;
+  font-family: "KakaoBig regular";
   color: #666666;
   padding: 16px 0 18px;
   line-height: 1.57;
@@ -56,6 +56,7 @@
 }
 .footer-copy .dot1 {
   font-size: 13px;
+  font-family: "KakaoBig regular";
   color: #444444;
   padding: 6px 0;
 }
@@ -65,6 +66,7 @@
   display: inline-block;
   padding: 6px 0;
   font-size: 14px;
+  font-family: "KakaoBig regular";
   color: #444;
   line-height: 1.57;
   letter-spacing: -0.1px;
@@ -72,10 +74,10 @@
 
 .footer-sitemap .dot {
   font-size: 13px;
+  font-family: "KakaoBig regular";
   color: #444444;
 }
 .footer-sitemap li a {
-  font-weight: 700;
 }
 
 .footer-sns {
