@@ -197,9 +197,16 @@
   .main-top-dona,
   .main-top-dona-time,
   .main-top-dona-tag {
-    width: 730px;
-    height: 61.64vw;
-    max-height: 730px;
+    width: 720px;
+    max-width: 100%;
+    height: 58.33vw;
+    max-height: 720px;
+
+    /* width: 720px;
+    width: 100%;
+    max-width: 100%;
+    height: 58.33vw;
+    max-height: 720px; */
   }
   .dona-contain {
     width: 100%;
