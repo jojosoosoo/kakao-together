@@ -231,7 +231,7 @@
 }
 .news-text {
   display: inline-block;
-  position: relative;
+  /* position: relative; */
   vertical-align: top;
   padding: 15px 12px 12px;
 }
