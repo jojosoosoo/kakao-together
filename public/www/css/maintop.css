@@ -13,13 +13,6 @@
   filter: drop-shadow(0 10px 10px rgba(125, 125, 125, 0.2));
 }
 
-/* 반응형 */
-@media all and (max-width: 770px) {
-  .main-top-dona {
-    width: 770px;
-  }
-}
-
 .dona-title {
 }
 .dona-title h2 {
@@ -71,6 +64,7 @@
   justify-content: space-between;
   font-size: 12px;
   font-family: "KakaoBig Bold";
+  margin-top: 5px;
 }
 .dona-percent span {
   color: #ff4050;
@@ -152,6 +146,7 @@
   justify-content: space-between;
   height: 40px;
   margin-top: 30px;
+  font-family: "KakaoBig regular";
 }
 .bt-heart,
 .bt-dona {
@@ -196,3 +191,37 @@
 .tag-bt span:visited{
     color: white;
 } */
+
+/* 반응형 */
+@media all and (max-width: 770px) {
+  .main-top-dona,
+  .main-top-dona-time,
+  .main-top-dona-tag {
+    width: 730px;
+    height: 61.64vw;
+    max-height: 730px;
+  }
+  .dona-contain {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .dona-dec {
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+  }
+  .dona-contain-img {
+    width: 125px;
+    height: 85px;
+    margin: 0;
+  }
+  .dona-contain-dec {
+    padding: 0 0 0 16px;
+  }
+  .dona-bar {
+    margin-top: 30px;
+  }
+}
