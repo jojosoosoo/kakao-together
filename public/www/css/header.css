@@ -38,6 +38,10 @@
   white-space: nowrap;
   flex: 1;
 }
+.menu-list-home {
+  border-bottom: 2px solid rgb(57, 57, 57);
+  padding: 7px;
+}
 .menu-list li a {
   color: #444444;
   /* font-weight: 700; */
@@ -72,7 +76,6 @@
   background: url("../images/icon-hbr.png") no-repeat center;
   background-size: contain;
 }
-
 
 /* 반응형 */
 @media all and (max-width: 1120px) {
@@ -118,7 +121,7 @@
   .header-navi {
     display: flex;
   }
-  .profile{
+  .profile {
     display: none;
   }
   .search {
@@ -127,7 +130,7 @@
     top: 20px;
   }
 
-  .mobile-navi{
+  .mobile-navi {
     position: absolute;
     left: 20px;
     top: 20px;
@@ -149,7 +152,6 @@
     padding: 10px;
   }
 } */
-
 
 /* 헤더 모바일 메뉴 */
 .mb-header-bg {
