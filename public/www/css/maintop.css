@@ -36,6 +36,9 @@
   font-size: 15px;
   font-family: "KakaoBig regular";
 }
+.dona-contain-dec{
+  width: 100%;
+}
 .dona-contain-img {
   width: 100%;
   height: 100%;
@@ -52,13 +55,25 @@
   font-size: 12px;
   color: #888;
 }
-.dona-bar {
+.progress{
+  display: flex;
+  border-radius: 99px;
+  width: 100%;
+  height: 2px;
+  background: rgb(233, 233, 233);
+  margin-top: 20px;
+}
+.progress-bar{
+  background: #ff4050;
+}
+/* .dona-bar {
   width: 100%;
   height: 2px;
   background: #ff4050;
   border-radius: 20px;
   margin-top: 20px;
-}
+} */
+
 .dona-percent {
   display: flex;
   justify-content: space-between;
@@ -197,7 +212,7 @@
   .main-top-dona,
   .main-top-dona-time,
   .main-top-dona-tag {
-    width: 720px;
+    width: 100%;
     max-width: 100%;
     height: 58.33vw;
     max-height: 720px;
@@ -212,7 +227,6 @@
     width: 100%;
     height: 100%;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
   }
   .dona-dec {
