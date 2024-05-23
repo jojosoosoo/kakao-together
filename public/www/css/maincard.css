@@ -256,3 +256,11 @@
   right: 12px;
   bottom: 12px;
 }
+
+/* 반응형 */
+@media all and (max-width: 770px){
+  .main-contain-inner{
+    display: flex;
+    flex-direction: column;
+  }
+}
