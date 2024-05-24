@@ -94,27 +94,30 @@
   margin-bottom: 30px;
   filter: drop-shadow(0 10px 10px rgba(125, 125, 125, 0.2));
 }
-.time-contain-count {
-  position: absolute;
-  top: 100px;
-  left: 30px;
-  width: 100%;
-  height: 30px;
-  background: rgb(32, 32, 32);
-}
+
 .time-contain {
   display: flex;
   width: 640px;
   height: 175px;
   font-size: 15px;
   margin: 18px auto;
+  gap: 20px;
 }
 .time-contain-img {
+  position: relative;
   width: 280px;
   height: 175px;
   background: url(../images/dona7.jpg) no-repeat center;
   background-size: cover;
   border-radius: 8px;
+}
+.time-contain-count {
+  position: absolute;
+  top: -10px;
+  width: 100%;
+  height: 30px;
+  border-radius: 8px 8px 0 0;
+  background: rgb(32, 32, 32);
 }
 .time-contain-text {
   display: flex;
