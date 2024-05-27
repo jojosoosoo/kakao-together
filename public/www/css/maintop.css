@@ -120,6 +120,14 @@
   background: rgb(32, 32, 32);
   color: #fff;
 }
+.time-contain-count-ts{
+  display: none;
+  background: rgb(32, 32, 32);
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  margin-top: 12px;
+}
 .time-contain-text {
   display: flex;
   justify-content: center;
@@ -225,13 +233,13 @@
   .main-top-dona-time {
     max-width: 100%;
     width: 92vw;
-    height: 62vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
   }
   .dona-title,
   .dona-sub {
-    overflow: hidden;
+    /* overflow: hidden; */
     white-space: nowrap;
     text-overflow: ellipsis;
   }
@@ -262,5 +270,27 @@
   }
   .dona-bar {
     margin-top: 30px;
+  }
+
+  .time-contain{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 62vh;
+    gap: 8px;
+    margin: 0;
+  }
+  .time-contain-count{
+    display: none;
+  }
+  .time-contain-count-ts{
+    display: flex;
+  }
+  .time-contain-img{
+    max-width: 100%;
+    width: 100vh;
+  }
+  .time-contain-text{
+    font-size: 16px;
   }
 }
